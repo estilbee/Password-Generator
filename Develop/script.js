@@ -20,6 +20,11 @@ function generatePassword(){
     return 
   }
 
+  if (passwordLength < 8 || passwordLength > 128){
+    alert("Error. Please enter a number between 8 and 128. Will return 'undefined'.")
+    return
+  }
+
   if (specialCharacters === true){
     characterPool = characterPool.concat(specialCharactersArray) 
   }
@@ -35,8 +40,8 @@ function generatePassword(){
   console.log(characterPool)
 
   for (var i = 0; i < passwordLength ; i ++) {
-  //     var randomNumber = Math.floor (Math.random() * charSet.length);
-var randomIndex = Math.floor (Math.random()* characterPool.length)//2
+
+var randomIndex = Math.floor (Math.random()* characterPool.length)
 var characterValue = characterPool[randomIndex]
 finalPasswordArray.push(characterValue)
 
