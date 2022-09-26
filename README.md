@@ -8,6 +8,9 @@ This application was created to ensure that a random and secure password may be 
 
 ![Password Generator](passwordgenerator.PNG)
 
+## Website Link
+[Password Generator](file:///C:/Users/oad83/Desktop/upennbootcamp/Password-Generator/Develop/index.html)
+
 ### Technologies Used
 -HTML
 -CSS
