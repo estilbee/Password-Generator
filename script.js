@@ -41,9 +41,9 @@ function generatePassword(){
 
   for (var i = 0; i < passwordLength ; i ++) {
 
-var randomIndex = Math.floor (Math.random()* characterPool.length) 
-var characterValue = characterPool[randomIndex]
-finalPasswordArray.push(characterValue)
+var randomIndex = Math.floor (Math.random()* characterPool.length) //the code here is creating a variable of randomIndex in order to pull a random number between 0 and the length of the characterPool
+var characterValue = characterPool[randomIndex] //here it is using characterValue to get a random character from the pool 
+finalPasswordArray.push(characterValue) //so that it can be added to the password via .push 
 
 console.log(finalPasswordArray)
 
