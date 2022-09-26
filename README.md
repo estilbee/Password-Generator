@@ -9,7 +9,7 @@ This application was created to ensure that a random and secure password may be 
 ![Password Generator](/Assets/passwordgenerator.PNG)
 
 ## Website Link
-[Password Generator](file:///C:/Users/oad83/Desktop/upennbootcamp/Password-Generator/Develop/index.html)
+[Password Generator](https://estilbee.github.io/Password-Generator/)
 
 ### Technologies Used
 - HTML
