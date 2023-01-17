@@ -6,7 +6,7 @@ This application was created to ensure that a random and secure password may be 
 
 ## Project Preview
 
-![Password Generator](/Assets/passwordgenerator1.PNG)
+![Password Generator](/Assets/passwordgenerator1.png)
 
 ## Website Link
 [Password Generator](https://estilbee.github.io/Password-Generator/)
